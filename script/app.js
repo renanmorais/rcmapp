@@ -15,7 +15,7 @@
             'ngResource',
             'ngRoute',
             'ngSanitize',
-            'ngTouch'
+            'ngTouch',
         ])
         .config(function ($routeProvider) {
             $routeProvider
@@ -29,15 +29,15 @@
                 })
                 .when('/pessoa', {
                     templateUrl: '/views/pessoa/pessoaPesquisa.html',
-                    controller: 'pessoaPesquisaController'
+                    controller: 'PessoaPesquisaController'
                 })
                 .when('/pessoa/cadastro', {
                     templateUrl: '/views/pessoa/pessoaCasdastro.html',
-                    controller: 'pessoaCadastroController'
+                    controller: 'PessoaCadastroController'
                 })
                 .when('/pessoa/pesquisa', {
                     templateUrl: '/views/pessoa/pessoaPesquisa.html',
-                    controller: 'pessoaPesquisaController'
+                    controller: 'PessoaPesquisaController'
                 })
 
                 .otherwise({
