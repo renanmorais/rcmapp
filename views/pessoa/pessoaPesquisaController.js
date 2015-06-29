@@ -4,6 +4,10 @@
 (function () {
     'use-strict';
 
+    angular
+        .module('rcmApp', [])
+        .controller('PessoaPesquisaController' , PessoaPesquisaController);
+
     PessoaPesquisaController.$inject = ['PessoaService'];
 
     function PessoaPesquisaController(PessoaService) {
